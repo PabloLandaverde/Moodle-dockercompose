@@ -15,6 +15,12 @@ $ git clone https://github.com/PabloLandaverde/Moodle-dockercompose.git
  se nos va a crear el directorio Moodle-dockercompose entramos a el con el siguiente comando:
  
  $ cd Moodle-dockercompose
+ 
+ 2- segundo paso es correr el docker-compose yml con el siguiente comando:
+ 
+ $ docker compose up
+ 
+ 
 
 
 
