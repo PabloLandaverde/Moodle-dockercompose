@@ -56,6 +56,7 @@ se utiliza para cambiar el propietario de un directorio llamado "mariadb_data" a
 8 - una vez dentro configurar tu administrador a la persona designada 
 
 #perfil
+
 #editar perfil
 
 llenar los datos que solicita 
@@ -69,6 +70,12 @@ y guardar
 
 9- crear usuario
 
+#  administrar usuario/ usuarios/ agregar usuarios
+
+
+10- listar usuarios creados
+
+administrar usuario/ usuarios/ listar usuarios
  
  
  
