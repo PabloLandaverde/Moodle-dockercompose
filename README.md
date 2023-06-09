@@ -52,8 +52,22 @@ se utiliza para cambiar el propietario de un directorio llamado "mariadb_data" a
   
   $ contraseña: bitnami
   
+
 8 - una vez dentro configurar tu administrador a la persona designada 
-![moodle-scree0](![image](https://github.com/PabloLandaverde/moodle/assets/115749532/8994c7af-e96d-479c-b98e-b7d1be4ecb0d)
+
+#perfil
+#editar perfil
+
+llenar los datos que solicita 
+
+- usuario
+- contraseña
+- correo electronico 
+
+y guardar 
+
+
+9- crear usuario
 
  
  
