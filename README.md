@@ -70,7 +70,7 @@ y guardar
 
 9- crear usuario
 
-#  administrar usuario/ usuarios/ agregar usuarios
+administrar usuario/ usuarios/ agregar usuarios
 
 
 10- listar usuarios creados
