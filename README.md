@@ -16,9 +16,11 @@ $ git clone https://github.com/PabloLandaverde/Moodle-dockercompose.git
  
  $ cd Moodle-dockercompose
  
- 2- segundo paso es correr el docker-compose yml con el siguiente comando:
+
+2- segundo paso es correr el docker-compose yml con el siguiente comando:
  
  $ docker compose up
+ 
  
  3- al correr el docker compose nos arroja unos errores por lo tanto tenemos que detener los contenedores y se hace una configuracion con el superusuario (sudo) con los siguientes comandos:
  
@@ -29,6 +31,32 @@ se utiliza para cambiar el grupo propietario de un directorio llamado "mariadb_d
 $ sudo chown 1001 mariadb_data/
 
 se utiliza para cambiar el propietario de un directorio llamado "mariadb_data" al usuario con el identificador numérico 1001.
+ 
+ 
+ 4- una vez hecha las anteriores configuraciones con el superusario se ejecuta de nuevo el comando: 
+ 
+ $ docker compose up
+ 
+
+5- verificar que los contenedores se encuentren corriendo con el siguiente comando :
+ 
+ $ docker ps
+ 
+
+6- una vez que los contenedores esten corriendo en sus respectivos puertos, entramos a nuestro navegador e ingresamos localhost:90, oara acceder al servicio de moodle 
+
+
+7- iniciar sesión con usuario y contraseña por defecto del servicio de moodle
+  
+  $ usuario :  user
+  
+  $ contraseña: bitnami
+  
+8 - una vez dentro configurar tu administrador a la persona designada 
+![moodle-scree0](![image](https://github.com/PabloLandaverde/moodle/assets/115749532/8994c7af-e96d-479c-b98e-b7d1be4ecb0d)
+
+ 
+ 
  
    
  
